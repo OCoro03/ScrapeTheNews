@@ -11,7 +11,7 @@ var Article = require("../models/Article.js");
 router.get("/", function(req, res) {
   res.redirect("/articles");
 });
-
+asdaf
 //Routes
 // A GET route for scraping the website
 router.get("/scrape", function(req, res) {
