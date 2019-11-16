@@ -11,7 +11,6 @@ var Article = require("../models/Article.js");
 router.get("/", function(req, res) {
   res.redirect("/articles");
 });
-asdaf
 //Routes
 // A GET route for scraping the website
 router.get("/scrape", function(req, res) {
@@ -88,7 +87,7 @@ router.get("/readArticle/:id", function(req, res) {
     article: [],
     body: []
   };
-
+//Here it gives us the functionality to look up one specific article
   Article.findOne({ _id: articleId })
     .populate("comment")
     .exec(function(err, doc) {
