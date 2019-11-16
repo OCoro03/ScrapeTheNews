@@ -24,13 +24,13 @@ app.engine(
   })
 );
 app.set("view engine", "handlebars");
-mongoose.connect(
-process.env.MONGODB_URI || 
-"mongodb://scraperdb:Teotihuacan03!@ds031747.mlab.com:31747/heroku_60rxfhlp",
-{
-  useMongoClient: true
-}
-)
+
+
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/scraperdb";
+mongoose.connect(MONGODB_URI);
+// mongoose.connect(
+// process.env.MONGODB_URI || "mongodb://scraperdb:Teotihuacan03!@ds031747.mlab.com:31747/heroku_60rxfhlp",
+// )
 // mongoose.connect("", { useNewUrlParser: true });
 // var db = mongoose.connection;
 // db.on("error", console.error.bind(console, "connection error:"));
