@@ -23,4 +23,4 @@ I would like to add a save functionality where the user saves their favorite art
 <br>
 <img width="1278" alt="Screen Shot 2019-11-16 at 12 57 45 AM" src="https://user-images.githubusercontent.com/54198484/68989435-70018900-080c-11ea-9871-76525d506da9.png">
 <br>
-<iframe src="https://giphy.com/embed/Zcp7ULrvyfJ1AhlO5C" width="480" height="260" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Zcp7ULrvyfJ1AhlO5C">via GIPHY</a></p>
+![Animated GIF-source](https://user-images.githubusercontent.com/54198484/68989556-45183480-080e-11ea-828c-d89aa60c5ded.gif)
